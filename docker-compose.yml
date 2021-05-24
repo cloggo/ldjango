@@ -1,0 +1,38 @@
+version: '2.2'
+
+services:
+  spider:
+    image: 'cloggo/scrapy:lspider-1.0.20-3.9.5'
+    restart: always
+    environment:
+      DB_HOST: 'pg'
+      DB_PASSWORD: 'lspider8898'
+      DB_USER: 'lspider'
+      DB_NAME: 'lspider'
+      REDIS_HOST: 'redis'
+
+  api:
+    image: 'cloggo/scrapy:lspider-1.0.20-3.9.5'
+    restart: always
+    command: ./api_start.sh
+    ports:
+      - 8000:8000
+    environment:
+      DB_HOST: 'pg'
+      DB_PASSWORD: 'lspider8898'
+      DB_USER: 'lspider'
+      DB_NAME: 'lspider'
+      REDIS_HOST: 'redis'
+
+  pg:
+    image: postgres:13
+    restart: always
+    # ports:
+    #   - 5432:5432
+    environment:
+      POSTGRES_USER: 'lspider'
+      POSTGRES_PASSWORD: 'lspider8898'
+
+  redis:
+    image: redis:6.2.3
+    restart: always
