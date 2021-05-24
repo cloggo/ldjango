@@ -158,4 +158,4 @@ This project aims at demonstrating technical ability to use scrapy spider to dow
 
 ### Efforts
 
-* It took close to 18 hours to document, test, integrate, research, plan, and implement the all the listed features
+* It took close to 18 hours to document, test, integrate, research, plan, and implement all the listed features
