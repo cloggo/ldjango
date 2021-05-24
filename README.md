@@ -119,7 +119,7 @@ This project aims at demonstrating technical ability to use scrapy spider to dow
 
 #### Data REST API (Export JSON Data)
 * source: lspider/models.py, lspider/views.py, lspider/serializers.py, ldjango/urls.py, ldjango/settings.py
-* The implemented using django rest framework
+* It is implemented using django rest framework
 * Endpoints: /authors, /tags, /quotes
 * Links representing relations from authors, tags, and quotes were included
 * This API was also meant to be used as exporting data from database in JSON format
