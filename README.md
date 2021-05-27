@@ -61,7 +61,7 @@ curl -H 'Accept: application/json; indent=4' "http://127.0.0.1:8001/tags/"
 
 ```
 
-## Legalist Demo Scrapy Spider Engine
+## Demo Scrapy Spider Engine
 
 This project aims at demonstrating technical ability to use scrapy spider to download quotes from the website [toscrape.com](http://toscrape.com) and orchestrate related services.  The following summarizes the completion of software features.
 
