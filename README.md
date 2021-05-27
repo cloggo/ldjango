@@ -3,8 +3,8 @@
 ## Contact
 
 * Name: Aaron Hai Kim Diep
-* Email: ahkdiep@gmail.com
-* Phone: 587-405-2737
+* Email: ****
+* Phone: ****
 
 
 ## Usage
