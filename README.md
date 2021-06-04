@@ -138,7 +138,7 @@ This project aims at demonstrating technical ability to use scrapy spider to dow
 ### Design Considerations
 
 #### General
-* Python packages, libraries, and tools were chosen based on the Legalist team recommendation
+* Python packages, libraries, and tools were chosen based on the team recommendation
 * It is preferable to stick with the team preference even if one was used to using other tools; unless another way of accomplish the same task could potentially add significant values
 * Code was refactored to be orthogonal, reduce repetition and increases reuses
 
